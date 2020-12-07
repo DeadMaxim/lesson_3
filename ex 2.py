@@ -10,7 +10,7 @@ def user_data(name, surname, year, city, mail_address, phone_number):
 
 user_data(name=input('Укажите имя: '),
           surname=input('Укажите фамилию: '),
-          year=input('Укажите год рождения: '),
+          year=int(input('Укажите год рождения: ')),
           city=input('Укажите город проживания: '),
           mail_address=input('Укажите адрес электронной почты: '),
           phone_number=input('Укажите номер телефона: '))
