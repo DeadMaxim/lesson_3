@@ -9,4 +9,4 @@ while True:
         print(my_func(var_1, var_2))
         break
     else:
-        print('Деление на ноль невозможно')
+        print('Деление на ноль невозможно!')
